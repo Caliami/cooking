@@ -1,0 +1,180 @@
+body{
+    background-image: url(img/bg_1.jpeg);
+    /* background-repeat: no-repeat;
+    background-size: cover; */
+    margin: 0;
+    background-attachment: fixed;
+}
+.wrapper{
+    width: 100%;
+}
+.wrapper-inner{
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+/* header */
+
+h2 {
+    color: aquamarine;
+    text-align: center;
+}
+.header li a{
+    padding: 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+}
+.header {
+    background-color: black;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.nav li {
+    display: inline-block;
+}
+
+/* banner */
+.banner {
+    /* background-image: url(img/bg_1.jpeg); */
+    background-position: center;
+    padding-bottom: 100px;
+    padding-top: 100px;
+}
+
+h1 {
+    text-align: center;
+    color: black;
+}
+
+.img2 {
+    display: flex;
+    flex-wrap: wrap;
+}
+.recipes{
+    background-color: white;
+}
+.restart {
+    flex: 0 1 30%;
+    margin: 1.5%;
+    text-align: center;
+    font-size: 23px;
+    text-transform: uppercase;
+}
+
+.restart img {
+    width: 100%;
+}
+.text{
+    background-image: url(img/line.jpeg);
+    padding:20px
+}
+.boxes{
+/* background-image: url(img/bg_1.jpeg); */
+padding-top: 20px;
+padding-bottom: 20px;
+background-position: bottom;
+}
+.box{
+width: 30%;
+height: 300px;
+background: rgba(0,0,0,0.5);
+color: white;
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 25px;
+font-weight: 700;
+}
+.boxes .wrapper-inner {
+    display: flex;
+    justify-content: space-between;
+}
+.menu{
+    background-color: #fff;
+}
+.menu .wrapper-inner{
+    display: flex;
+}
+.food{
+    display: flex;
+
+}
+.dishes{
+    flex-basis: 35%;
+}
+.abonda{
+    list-style: none;
+    text-transform: uppercase;
+}
+.abonda li{
+margin-bottom: 20px;
+}
+.food img{
+margin-bottom: 20px;
+}
+.adv1{
+    color: white;
+    text-align: center;
+}
+.icons{
+ 
+    /* background-image: url(img/bg_1.jpeg); */
+    background-position: center;
+ padding-top: 30px;
+ padding-bottom: 30px;
+ text-align: center;
+}
+.social a i{ 
+    color: black;
+    font-size:25px;
+    margin-right: 20px;
+    text-decoration: none;
+    transition: all .5s;
+}
+.social a:hover i{
+    color:black;
+    transform: rotate(360deg);
+}
+.futer{
+    background-color: black;
+    padding: 70px 0px;
+}
+.pop{
+color: greenyellow;
+}
+.futer .wrapper-inner{
+    display: flex;
+}
+.futerlogo{
+    flex: 1 1 33.3%;
+    text-align: center;
+}
+.footer-menu{
+    flex: 1 1 33.3%;
+    text-align: center;
+}
+.footer-contact{
+    flex: 1 1 33.3%;
+}
+.footer-contact a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    display: inline-block;
+    padding-left: 20px;
+    
+}
+.footer-menu li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+.footer-contact i{
+    margin-right: 20px;
+}
